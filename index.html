@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>my html</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body onload="myFunction()" style="margin:0;">
+      <div id="loader"></div>
+      <div style="display:none;" id="myDiv" class="animate-bottom">
+      
+      </div>
+        <div class="parallax">
+            <h1>DESA TLOGO</h1>
+            <h5>KEC. KANIGORO- KAB. BLITAR</h5>
+           
+        </div>
+        <div class="menuAtas">
+            <nav class="navbar navbar-expand-lg ">
+                <div class="container-fluid">
+                <img src="logoDesa.png" alt="logos"  width="60" height="60">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <a style="color: #fff;font-size: 20px;">MENU</a>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                      <a id='tblberanda' class="nav-link" href="">Beranda<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Kegiantan</a>
+                    </li>
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Berita</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Profil:
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a id="tblsejarah" class="dropdown-item" href="sejarah desa/index.html">Sejarah Desa</a>
+                        <div class="dropdown-divider"></div>
+                        <a id="tblPotensi" class="dropdown-item" href="">Potensi</a>
+                        <div class="dropdown-divider"></div>
+                        <a id="tblstruktur" class="dropdown-item" href="struktur/index.html">Stuktur</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Perkembangan</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                </div>
+                </div>
+            </nav>
+        </div>
+           
+        <marquee behavior="scroll" direction="left">
+           <div class="isi">
+    
+            <div class="text">
+              <p><img src="virus.png" alt="logos"  width="40" height="40">Waspada COVID-19 </p>
+            </div>
+            <div class="text">
+              <p><img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Oikya_Front_Logo.png" alt="logos"  width="40" height="40">Patuhi protokol kesehatan yang ada</p>
+            </div>
+           </div>
+        </marquee>
+
+        
+
+
+            <div class="halaman1">
+            <div class="container">
+                <div class="jumbotron">
+                    <h1>Welcome to this Website</h1>
+                    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                    <hr class="my-4">
+                    <div class="jadwal">
+                      <div class="waktu"><a></a></div>
+                      <div class="waktu" id="tanggal"></div>
+                    </div>
+                </div>
+                <div class="row">
+               
+                    <div class="col-md-4">
+                      <img src="https://i.pinimg.com/originals/34/1a/71/341a71ac11eab6a6dd5181e92685e22b.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="https://i.pinimg.com/originals/63/84/26/638426223000105e71b7b906238cc7d9.jpg" class="card-img-top">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <img src="https://cms.dailysocial.id/wp-content/uploads/2016/11/rise-of-the-tomb-raider-4k.jpg" class="card-img-top" >
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                      </div>
+                      <div class="card-footer">
+                        <small class="text-muted">Last updated 3 mins ago</small>
+                      </div>
+                    </div>
+                </div>
+    
+            </div>
+          </div>
+
+            <div class="halaman2">
+            <div id="potensi" class="container ke2">
+              <div class="jumbotron jumbotron-fluid" style="box-shadow: 10px 10px 50px 2px;">
+                <div class="container">
+                  <h1 class="display-4">POTENSI DESA TLOGO</h1>
+                  <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col" colspan="4" style="height: 40px;"></th>
+                       
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">></th>
+                        <td>Desa/Kelurahan</td>
+                        <td>TLOGO</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">></th>
+                        <td>Kecamatan</td>
+                        <td>KANIGORO</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">></th>
+                        <td>Kabupaten/Kota</td>
+                        <td>BLITAR</td>
+                        
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">></th>
+                        <td>Kabupaten/Kota</td>
+                        <td>BLITAR</td>
+                        
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">></th>
+                        <td>Provinsi</td>
+                        <td>JAWA TIMUR</td>
+                        
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">></th>
+                        <td>Luas (Ha)</td>
+                        <td>330</td>
+                        
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">></th>
+                        <td>Koordinat Bujur</td>
+                        <td>112°11’29” s.d 112°12’27” Bujur Timur</td>
+                        
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">></th>
+                        <td>Koordinat Lintang</td>
+                        <td>8°6’50” s.d 8°8’35” Lintang Selatan</td>
+                        
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">></th>
+                        <td>Ketinggian DPL(M)</td>
+                        <td>160</td>
+                        
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+    
+              <div class="jumbotron jumbotron-fluid" style="box-shadow: 10px 10px 50px 2px;">
+                <div class="container">
+                  <h1 class="display-4">Batas Wilayah</h1>
+                  
+                  
+                  <table class="table table-hover">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th>BATAS</th>
+                        <th>DESA/KELURAHAN</th>
+                        <th>KECAMATAN</th>
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Sebelah Utara</th>
+                        <td>DESA PAPUNGAN, DESA BANGGLE</td>
+                        <td>KANIGORO</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">Sebelah Selatan</th>
+                        <td>DESA KARANGSONO</td>
+                        <td>KANIGORO</td>
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">Sebelah Timur</th>
+                        <td>KEL. KANIGORO, DESA BANGGLE</td>
+                        <td>KANIGORO</td>
+                        
+                      </tr>
+    
+                      <tr>
+                        <th scope="row">Sebelah Barat</th>
+                        <td>DESA GAPRANG</td>
+                        <td>KANIGORO</td>
+                        
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+    
+           
+            <div class="jumbotron jumbotron-fluid" style="width: 90% !important; margin: 0 auto;box-shadow: 10px 10px 50px 2px;">
+              <div class="container">
+                <h2 class="display-5" style="text-align: center;">LUAS WILAYAH MENURUT PENGGUNAAN </h2>
+                <h4 style="margin-top:70px">A.TANAH SAWAH</h4>
+                <table class="table table-dark table-bordered table-hover">
+                  <thead>
+                    <tr>
+                      <th style="text-align: center;">Jenis Sawah</th>
+                      <th >Luas (Ha)</th>
+                     
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th >Sawah irigasi teknis</th>
+                      <td>65</td>
+                      
+                    </tr>
+                    <tr>
+                      <th >Sawah irigasi ½ teknis</th>
+                      <td>62,22</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Total luas (1+2+3+4)</th>
+                      <td>127,22</td>
+                    
+                    </tr>
+                  </tbody>
+                </table>
+    
+    
+                <h4 style="margin-top:70px">B. TANAH KERING	
+                </h4>
+                <table class="table table-dark table-bordered table-hover">
+                  <thead>
+                    <tr>
+                      <th style="text-align: center;">Jenis Tanah Kering</th>
+                      <th >Luas (Ha)</th>
+                     
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th >Tegal / Ladang</th>
+                      <td>-</td>
+                      
+                    </tr>
+                    <tr>
+                      <th >Pemukiman</th>
+                      <td>3,34</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Pekarangan</th>
+                      <td>175,99</td>
+                    
+                    </tr>
+    
+                    <tr>
+                      <th>Total luas (1+2+3)</th>
+                      <td>179,33</td>
+                    
+                    </tr>
+                  </tbody>
+                </table>
+    
+    
+    
+                <h4 style="margin-top:70px">E. TANAH FASILITAS UMUM
+                </h4>
+                <table class="table table-dark table-bordered table-hover">
+                  <thead>
+                    <tr>
+                      <th style="text-align: center;">Jenis Fasilitas Umum</th>
+                      <th >Luas (Ha)</th>
+                     
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th >Kas Desa/Kelurahan (a+b+c+d) :</th>
+                      <td>17,434</td>
+                      
+                    </tr>
+                    <tr>
+                      <th >Tanah bengkok</th>
+                      <td>13,312</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Tanah titi sara</th>
+                      <td>1,35</td>
+                    
+                    </tr>
+    
+                    <tr>
+                      <th>Kebun desa</th>
+                      <td>-</td>
+                    
+                    </tr>
+    
+                    <tr>
+                      <th>Sawah desa</th>
+                      <td>2,772</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Lapangan olahraga</th>
+                      <td>1,1</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Perkantoran pemerintah</th>
+                      <td>1,5</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Ruang publik/taman kota</th>
+                      <td>0,5</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Tempat pemakaman desa/umum</th>
+                      <td>2</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Tempat pembuangan sampah</th>
+                      <td>-</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Bangunan sekolah/perguruan tinggi</th>
+                      <td>5</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Pertokoan</th>
+                      <td>1,25</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Fasilitas pasar</th>
+                      <td>0,1</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Terminal</th>
+                      <td>-</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Jalan</th>
+                      <td>7,5</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Daerah tangkapan air</th>
+                      <td>-</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Usaha perikanan</th>
+                      <td>5</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Sutet/aliran listrik tegangan tinggi</th>
+                      <td>-</td>
+                    
+                    </tr>
+                    <tr>
+                      <th>Total luas (1+2+3+4+5+6+7+8...+14)</th>
+                      <td>41,384</td>
+                    
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+    
+            
+            <div class="jumbotron jumbotron-fluid" style="width: 90% !important; margin: 0 auto;margin-top:30px;box-shadow: 10px 10px 50px 2px;" >
+              <div class="container">
+                <h3 class="display-6">Iklim</h3>
+                <table class="table table-striped table-bordered table-hover">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="row">Keterangan</th>
+                      <th>Nilai</th>
+                      <th>Satuan</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Curah hujan</th>
+                      <td>2000</td>
+                      <td>mm</td>
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Jumlah bulan hujan</th>
+                      <td>6</td>
+                      <td>bulan</td>
+                   
+                    </tr>
+                    <tr>
+                      <th scope="row">Kelembapan</th>
+                      <td>-</td>
+                      <td>-</td>
+                     
+                    </tr>
+                    <tr>
+                      <th scope="row">Suhu rata-rata harian</th>
+                      <td>27° - 35°</td>
+                      <td>°C</td>
+                     
+                    </tr>
+                    <tr>
+                      <th scope="row">Tinggi tempat dari permukaan laut</th>
+                      <td>160</td>
+                      <td>mdl</td>
+                     
+                    </tr>
+                  </tbody>
+                </table>
+    
+                <h3 class="display-6">Jenis dan kesuburan tanah</h3>
+                <table class="table table-striped table-bordered table-hover">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th scope="row" colspan="3"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Warna tanah (sebagian besar)</th>
+                      <td> Abu-Abu</td>
+                     
+                      
+                    </tr>
+                    <tr>
+                      <th scope="row">Tekstur tanah</th>
+                      <td>Debuan </td>
+                     
+                   
+                    </tr>
+                    <tr>
+                      <th scope="row">Tingkat kemiringan tanah (o)</th>
+                      <td>0,5</td>
+                 
+                   
+                    </tr>
+                   
+                  </tbody>
+                </table>
+    
+                <table class="table table-dark" style="margin-top: 50px;">
+                  <thead>
+                    <tr>
+                      <th scope="col">></th>
+                      <th scope="col">Desa/kelurahan kawasan perkantoran</th>
+                      <th scope="col">V</th>
+                      <th scope="col">1,2</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">></th>
+                      <td>Desa/kelurahan kawasan pertokoan/bisnis</td>
+                      <td>V</td>
+                      <td>0.6</td>
+                    </tr>
+                  
+                  
+                  </tbody>
+                </table>
+              </div>
+            </div>
+    
+            <div class="container">
+              <div class="jumbotron jumbotron-fluid" style="box-shadow: 10px 10px 50px 2px;">
+                <div class="container">
+                  <h3 class="display-6">JUMLAH PENDUDUK</h3>
+                  
+                  
+                  <table class="table table-hover">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th>Keterangan</th>
+                        <th>Jumlah</th>
+                      
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">a. Jumlah laki-laki</th>
+                        <td>4.088 orang</td>
+                    
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">b. Jumlah perempuan</th>
+                        <td>3.964 orang</td>
+            
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">c. Jumlah total (a+b)</th>
+                        <td>8.052 orang</td>
+        
+                        
+                      </tr>
+      
+                      <tr>
+                        <th scope="row">d. Jumlah kepala keluarga</th>
+                        <td>2.439      KK</td>
+                 
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">e. Kepadatan Penduduk (c / Luas Desa)</th>
+                        <td>per km</td>
+        
+                        
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+             
+            </div>
+    
+            <div class="container">
+              <div class="jumbotron jumbotron-fluid" style="box-shadow: 10px 10px 50px 2px;">
+                <div class="container">
+                  <h3 class="display-6">AGAMA/ALIRAN KEPERCAYAAN</h3>
+                  
+                  
+                  <table class="table  table-dark table-hover table-bordered" >
+                    <thead class="thead-dark">
+                      <tr>
+                        <th>Agama</th>
+                        <th>Laki-laki
+                          (Orang)</th>
+                        <th>Perempuan
+                          (Orang</th>
+                      
+                        
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">Islam</th>
+                        <td>4.007</td>
+                        <td>3891</td>
+                    
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">Kristen</th>
+                        <td>74</td>
+                        <td>65</td>
+            
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">Katholik</th>
+                        <td>4</td>
+                        <td>7</td>
+        
+                        
+                      </tr>
+      
+                      <tr>
+                        <th scope="row">Hindu</th>
+                        <td>1</td>
+                        <td>-</td>
+                 
+                        
+                      </tr>
+                      <tr>
+                        <th scope="row">Budha</th>
+                        <td>2</td>
+                        <td>1</td>
+        
+                        
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+
+          <div class="halaman3">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h2 class="display-4">TAHUN WARSO<br>
+                JANTURAN DESO TLOGO
+                </h2>
+                <hr class="my-4">
+              <p class="lead" style="margin-top: 50px;">JAGAT DEWO BATORO, MANG NGESTU KOROLAH PUNIKO TO. GUMELARING PADUKUHAN DESO TLOGO.
+                INGKANG SINUNG CAHYO SUMLOROT PINDO SELOKO.
+                MIANG NGAMBAR AMBAR NGEBAKI JAGAT ROYO.
+                KANAN KIRING ANENG MARGO KANG KATINGAL HAMUNG GUMELARE PESABINAN DALAH PATEGALAN.
+                GUMELARING PATEGALAN DATANG NGUCIWANI.
+                DATAN AMBOGO NORO NGRAOS ROSO LESU.
+                PRAMILO DATAN MOKAL LAMUN DESO TLOGO TAN WONTEN NGRAOS SINANG SOYO.
+                GUMELARING DESO TLOGO RINTEN KELAWAN DALU HAWANG HAMUNG SARWO TOTO TENTREM KARTO RAHARJO.
+                SINTEN TO INGKANG ANGRENGGANI DESO TLOGO …..
+                TAN SANES WARONGKO NOTO INGKANG AJEJULUK EYANG ……. 
+                (MANGKUNU WIDIASING DRIYO INGKANG DERENG KAWIYOSING LESAN)  (DOK)
+                </p>
+            </div>
+          </div>
+          
+          <div class="container">
+            <div class="jumbotron jumbotron-fluid" style="border-radius: 10px;">
+              <div class="container">
+                <h1 class="display-5">SITUS SEJARAH DESA TLOGO :
+                </h1>
+                
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="color: #1d5729 !important;">
+                          SARI NOGO
+                        </button>
+                      </h2>
+                    </div>
+                
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body">
+                       Belum terdapat penjelasan
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="color: #1d5729 !important;">
+                          SAWAH LUMPANG
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body">
+                       Belum terdapat penjelasan
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="color: #1d5729 !important;">
+                          GADUNG MELATHI
+                        </button>
+                      </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body">
+                        <img src="https://lh3.googleusercontent.com/Hdu6e2-e0GQ5l_9p2TA2OrXwDkSibVtSq3umYA-SDAwowjBhAOHwnp7FCuPgCblf7Lox8Q=s85" alt="">
+                        Nyi Gadung Melati adalah tokoh yang membuka lahan baru sebagai tempat pelarian dari pemerintahan Belanda. Adapun Nama-nama kepala desa Maliran yang pernah menjabat adalah: 1. Kyai Naya Menggala (1874-1879), diyakini warga desa Maliran  masih cucu Nyi Gadung Melati; 2. Mbah Rana Sentika (1880-1886); 3. Mbah Sokrama Tahun (1887- 1901); 4. Mbah Djoikrama (1902-1905); 5. Mbah Kasan Radji (1906-1908); 6. Mbah Djaya Marta (1909-1915); 7. Mbah Djaya Munawi (1916-1924); 8. Mbah Tani Medja (1925-1943); 9. Mbah Karta Miharja (1945-1949); 10. Mbah Amat Siyar (1950-1979); 11. Mbah Kusranan (1980-1999); 12. Bapak Darulin (1999-2007); 13. Bapak Sutoyo tahun : 2007-sekarang (2 periode).
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+            </div>
+  
+  
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">Silsilah Pejabat Desa</h1>
+                <table class="table table-striped table-dark">
+                  <thead style="background-color: #1d5729 !important;">
+                    <tr>
+                      <th scope="col">NO</th>
+                      <th scope="col">NAMA</th>
+                      <th scope="col">TAHUN MENJABAT</th>
+                      <th scope="col">KETERANGAN</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>PONTJO WIDJOJO</td>
+                      <td>1837 - 1863</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>PRAWIRO DIKROMO</td>
+                      <td>1863 - 1873</td>
+                      <td>LURAH WARIS</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>DJOJO KARSO</td>
+                      <td>1873 - 1874</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">4</th>
+                      <td>KASAN MARWI</td>
+                      <td>1874 - 1881</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">5</th>
+                      <td>MARTO SENTONO</td>
+                      <td>1881 - 1912</td>
+                      <td></td>
+                    </tr>
+  
+                    <tr>
+                      <th scope="row">6</th>
+                      <td>BAHU SENTONO</td>
+                      <td>1912 - 1929</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">7</th>
+                      <td>KARJADI</td>
+                      <td>1930 - 1937 </td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">8</th>
+                      <td>MARYADI</td>
+                      <td>1937 - 1943</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">9</th>
+                      <td>SOEKARDJANI</td>
+                      <td>1943 - 1951</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">10</th>
+                      <td>MOCH. OENOES</td>
+                      <td>1951 - 1985</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>ASNAN</td>
+                      <td>1985 - 1989</td>
+                      <td>PJ</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">12</th>
+                      <td>SETYA BUDI</td>
+                      <td>1989 - 1997</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">13</th>
+                      <td>SAERODJI</td>
+                      <td>1997 - 1997</td>
+                      <td>PJ</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">14</th>
+                      <td>SETYA BUDI</td>
+                      <td>1997 - 2003</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">15</th>
+                      <td>SUTOPO</td>
+                      <td>2003 - 2004</td>
+                      <td>PJ</td>
+                    </tr>
+                    <tr>
+                      <th scope="row">16</th>
+                      <td>H. MUHAMAD</td>
+                      <td>2004 - 2014</td>
+                      <td></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">17</th>
+                      <td>RAHMAN DIYARTO</td>
+                      <td>2014 - SEKARANG</td>
+                      <td></td>
+                    </tr>
+                    
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+          <div class="halaman4">
+          <div class="container-fluid" style="box-shadow: 10px 10px 50px 5px;border-radius: 20px;">
+            <div class="jumbotron jumbotron-fluid">
+              <div class="container">
+                <h1 class="display-4">Struktur Desa</h1>
+                <img src="struktur.jpg" style="margin-top:30px;margin-bottom: 30px;" class="responsive">
+              </div>
+            </div>
+          </div>
+        </div>
+       
+            <footer class="page-footer font-small blue pt-4">
+
+              <!-- Footer Links -->
+              <div class="container-fluid text-center text-md-left">
+            
+                <!-- Grid row -->
+                <div class="row">
+            
+                  <!-- Grid column -->
+                  <div class="col-md-6 mt-md-0 mt-3">
+            
+                    <!-- Content -->
+                    <h5 class="text-uppercase">Footer Content</h5>
+                    <p>Here you can use rows and columns to organize your footer content.</p>
+            
+                  </div>
+                  <!-- Grid column -->
+            
+                  <hr class="clearfix w-100 d-md-none pb-3">
+            
+                  <!-- Grid column -->
+                  <div class="col-md-3 mb-md-0 mb-3">
+            
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Links</h5>
+            
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#!">Link 1</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 2</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 3</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 4</a>
+                      </li>
+                    </ul>
+            
+                  </div>
+                  <!-- Grid column -->
+            
+                  <!-- Grid column -->
+                  <div class="col-md-3 mb-md-0 mb-3">
+            
+                    <!-- Links -->
+                    <h5 class="text-uppercase">Links</h5>
+            
+                    <ul class="list-unstyled">
+                      <li>
+                        <a href="#!">Link 1</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 2</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 3</a>
+                      </li>
+                      <li>
+                        <a href="#!">Link 4</a>
+                      </li>
+                    </ul>
+            
+                  </div>
+                  <!-- Grid column -->
+            
+                </div>
+                <!-- Grid row -->
+            
+              </div>
+              <!-- Footer Links -->
+            
+              <!-- Copyright -->
+              <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="https://mdbootstrap.com/"> MDBootstrap.com</a>
+              </div>
+              <!-- Copyright -->
+            
+            </footer>
+            <!-- Footer -->
+
+        
+         
+        
+    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="java.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>
